@@ -7,5 +7,8 @@ public class Main {
 
         var cm = new Overloading().calcFeetAndInchesToCentimeters(157);
         System.out.println(cm);
+
+        var s = new SecondsAndMinutes().getDurationString(7322);
+        System.out.println(s);
     }
 }
