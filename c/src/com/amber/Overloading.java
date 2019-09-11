@@ -1,6 +1,8 @@
 package com.amber;
 
-public class ToCentimeters {
+public class Overloading {
+
+    // OVERLOADING
 
     public String calcFeetAndInchesToCentimeters(double feet, int inches){
         double cmValue = 2.54;
