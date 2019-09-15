@@ -10,5 +10,7 @@ public class Main {
 
         var s = new SecondsAndMinutes().getDurationString(7322);
         System.out.println(s);
+
+        new MegaBytes().printMegaBytesAndKiloBytes(2500);
     }
 }
